@@ -30,7 +30,7 @@ const Header = () => {
                         <li><a href="#"><TelegramIcon /></a></li>
                     </ul>
                     <h1 className='font-Azo font-[400] text-xxl md:text-xxxl text-center text-white'>WELCOME <span className='md:block'> TO <span className='text-secondary relative before:absolute before:w-full before:h-[5px] before:bg-primary before:bottom-[0px]'>DOMPKONG</span></span></h1>
-                    <p className='text-white text-center pt-[12`px] font-Montserrat '>Turpis et tortor vel pharetra nibh. Mauris nisl sit vitae viverra amet et. <span className='lg:block'>Erat nam molestie. Vita</span></p>
+                    <p className='text-white text-center pt-[12px] font-Montserrat '>Turpis et tortor vel pharetra nibh. Mauris nisl sit vitae viverra amet et. <span className='lg:block'>Erat nam molestie. Vita</span></p>
                     <div className="flex flex-col sm:flex-row pt-[30px] justify-center sm:gap-[20px] md:gap-[32px]">
                         <div className='flex justify-center'> <button className='shadow-cardShadow border-none outline-none px-6 py-4 max-w-auto font-Azo bg-primary uppercase rounded-[4px]'>Whitepaper</button></div>
                         <div className='flex justify-center mt-4 sm:mt-0'><button className='shadow-cardShadow border-none outline-none px-6  py-4 font-Azo bg-primary uppercase rounded-[4px]'>Mint</button></div>
