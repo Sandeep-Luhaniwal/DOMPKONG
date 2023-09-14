@@ -21,7 +21,7 @@ const Nft = () => {
     return (
         <>
             <section className='md:pt-[90px] bg-black'>
-            <div className="bg-[url('/src/assets/images/png/Bg_mint.png')] bg-no-repeat bg-center bg-cover relative overflow-hidden">
+            <div className="bg-[url('/src/assets/images/png/bgmint.png')] bg-no-repeat bg-center bg-cover relative overflow-hidden">
                 <div className='absolute w-full top-0'>
                     <img src={gradian1} alt="gradian" />
                 </div>
