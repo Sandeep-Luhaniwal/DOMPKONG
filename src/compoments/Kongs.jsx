@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import firstimage from "../assets/images/png/img_1.png";
 import secondimage from "../assets/images/png/mokey.png";
-import thirdimage from "../assets/images/png/mokey1.png";
-import fourthimage from "../assets/images/png/img_4.png";
-import fifthimage from "../assets/images/png/img_5.png";
+import thirdimage from "../assets/images/png/mokey2.png";
+import fourthimage from "../assets/images/png/mokey3.png";
+import fifthimage from "../assets/images/png/mokey4.png";
 import siximage from "../assets/images/png/img_6.png";
 import sevenimage from "../assets/images/png/img_7.png";
 import eightimage from "../assets/images/png/img_8.png";
