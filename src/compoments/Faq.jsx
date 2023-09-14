@@ -5,7 +5,7 @@ import { BoatIcon, DiamondIcon, DiscordIcon, MaxIcon, TelegramIcon, TwitterIcon 
 const Faq = () => {
     return (
         <>
-            <section className="bg-[url('./src/assets/images/png/bg_faq.png')] relative bg-no-repeat bg-cover overflow-hidden" >
+            <section className="bg-[url('/src/assets/images/png/bg_faq.png')] relative bg-no-repeat bg-cover overflow-hidden" >
                 <div className="w-[132px] h-[132px] rounded-full bg-primary absolute top-[30%] left-[50%] blur-[136px] "></div>
                 <div className="w-[247px] h-[247px] rounded-full bg-primary absolute bottom-[-60px] left-[-60px] blur-[146px] "></div>
                 <div className="cotainer mx-auto max-w-[1140px] px-3 relative z-20 pt-[30px] sm:pt-[70px] md:pt-[100px]">
