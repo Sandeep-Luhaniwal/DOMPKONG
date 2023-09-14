@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import firstimage from "../assets/images/png/img_1.png";
 import secondimage from "../assets/images/png/mokey.png";
-import thirdimage from "../assets/images/png/img_3.png";
+import thirdimage from "../assets/images/png/mokey1.png";
 import fourthimage from "../assets/images/png/img_4.png";
 import fifthimage from "../assets/images/png/img_5.png";
 import siximage from "../assets/images/png/img_6.png";
