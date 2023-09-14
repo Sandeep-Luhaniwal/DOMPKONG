@@ -8,15 +8,6 @@ import Team4 from '../assets/images/svg/instagram.svg'
 import Team5 from '../assets/images/svg/twitter.svg'
 import Team6 from '../assets/images/svg/linetop.svg'
 
-
-
-import firstfullimage from "../assets/images/png/img_1.png";
-import firstimage from "../assets/images/png/img_1.png";
-import secondimage from "../assets/images/png/img_2.png";
-import thirdimage from "../assets/images/png/img_3.png";
-import fourthimage from "../assets/images/png/img_4.png";
-import fifthimage from "../assets/images/png/img_5.png";
-
 export const ProductsCard = [
     {
         id: 1,
@@ -76,27 +67,3 @@ export const TeamMember = [
         img3: Team6,
     },
 ]
-
-
-export const HeroSliderData = [
-    {
-        sliderImage: firstimage,
-        fullImage: firstfullimage,
-    },
-    {
-        sliderImage: secondimage,
-        fullImage: firstfullimage,
-    },
-    {
-        sliderImage: thirdimage,
-        fullImage: firstfullimage,
-    },
-    {
-        sliderImage: fourthimage,
-        fullImage: firstfullimage,
-    },
-    {
-        sliderImage: fifthimage,
-        fullImage: firstfullimage,
-    },
-];

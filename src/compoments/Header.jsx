@@ -7,7 +7,16 @@ import Image3 from '../assets/images/png/monkey_3.png'
 const Header = () => {
     return (
         <>
-            <section className="bg-[url('/src/assets/images/png/Bg_header.png')] bg-no-repeat bg-center min-h-screen bg-cover">
+            <section className="bg-[url('/src/assets/images/png/Bg_header.png')] bg-no-repeat bg-center min-h-screen bg-cover relative">
+                <div className='absolute right-0 bottom-0'>
+                    <img src={Image1} alt="" />
+                </div>
+                <div className='absolute right-0 bottom-0'>
+                    <img src={Image2} alt="" />
+                </div>
+                <div className='absolute right-0 bottom-0'>
+                    <img src={Image3} alt="" />
+                </div>
                 <div className="container min-h-[100vh]: mx-auto max-w-[1140px] ">
                     <div className="flex pt-[28px] justify-end">
                         <button className='shadow-cardShadow border-none outline-none px-6 py-4 font-Azo bg-primary  rounded-[4px]'>CONNECT WALLET</button>
