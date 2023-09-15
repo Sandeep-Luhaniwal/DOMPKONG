@@ -21,6 +21,7 @@ button svg {
 .color svg path {
     fill: white;
 }
+
 .color:hover svg path {
     fill: #FDDA60;
 }
@@ -147,11 +148,13 @@ button svg {
         transform: rotateY(360deg);
     }
 }
-.changecolor:hover div{
+
+.changecolor:hover div {
     background-color: #FDDA60;
 }
+
 .changecolor:hover ::after,
-.changecolor:hover ::before{
+.changecolor:hover ::before {
     background-color: #FDDA60;
 }
 
