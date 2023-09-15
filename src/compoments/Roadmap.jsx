@@ -1,5 +1,5 @@
 import React from 'react'
-import monkey from '../assets/images/png/monkey_roadmap.png'
+import monkey from '../assets/images/webp/monkey_roadmap.webp'
 
 const Roadmap = () => {
     return (

@@ -1,10 +1,10 @@
 import React from 'react'
 import { BoatIcon, DiamondIcon, DiscordIcon, MaxIcon, TelegramIcon, TwitterIcon } from './Icon'
-import Image1 from '../assets/images/png/monkey_1.png'
-import Image2 from '../assets/images/png/monkey_2.png'
-import Image3 from '../assets/images/png/monkey_3.png'
-import Image4 from '../assets/images/png/header-left.png'
-import Image5 from '../assets/images/png/header-right.png'
+import Image1 from '../assets/images/webp/monkey_1.webp'
+import Image2 from '../assets/images/webp/monkey_2.webp'
+import Image3 from '../assets/images/webp/monkey_3.webp'
+import Image4 from '../assets/images/webp/header-left.webp'
+import Image5 from '../assets/images/webp/header-right.webp'
 
 const Header = () => {
     return (

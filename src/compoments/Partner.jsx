@@ -1,8 +1,8 @@
 import React from 'react'
-import Image1 from '../assets/images/png/Partner_1.png'
-import Image2 from '../assets/images/png/Partner_2.png'
-import Image3 from '../assets/images/png/Partner_3.png'
-import Image4 from '../assets/images/png/Partner_4.png'
+import Image1 from '../assets/images/webp/Partner_1.webp'
+import Image2 from '../assets/images/webp/Partner_2.webp'
+import Image3 from '../assets/images/webp/Partner_3.webp'
+import Image4 from '../assets/images/webp/Partner_4.webp'
 import Slider from 'react-slick'
 
 

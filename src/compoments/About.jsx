@@ -1,7 +1,7 @@
 import React from 'react'
-import Image1 from '../assets/images/png/boats.png'
-import Image2 from '../assets/images/png/cars.png'
-import Image3 from '../assets/images/png/watchs.png'
+import Image1 from '../assets/images/webp/boats.webp'
+import Image2 from '../assets/images/webp/cars.webp'
+import Image3 from '../assets/images/webp/watchs.webp'
 
 const About = () => {
     return (

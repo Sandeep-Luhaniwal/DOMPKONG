@@ -1,25 +1,25 @@
 import React, { useState } from 'react'
-import firstimage from "../assets/images/png/img_1.png";
-import secondimage from "../assets/images/png/mokey.png";
-import thirdimage from "../assets/images/png/mokey2.png";
-import fourthimage from "../assets/images/png/mokey3.png";
-import fifthimage from "../assets/images/png/mokey4.png";
-import siximage from "../assets/images/png/img_6.png";
-import sevenimage from "../assets/images/png/img_7.png";
-import eightimage from "../assets/images/png/mokey8.png";
-import nineimage from "../assets/images/png/mokey9.png";
-import tenimage from "../assets/images/png/mokey10.png";
-import firstcenter from "../assets/images/png/img_1_center.png";
-import secondcenter from "../assets/images/png/img_2_center.png";
-import thirdcenter from "../assets/images/png/monkey3.png";
-import fouthcenter from "../assets/images/png/monkey4.png";
-import fivecenter from "../assets/images/png/img_5_center.png";
-import sixcenter from "../assets/images/png/img_6_center.png";
-import sevencenter from "../assets/images/png/img_7_center.png";
-import eightcenter from "../assets/images/png/img_8_center.png";
-import ninecenter from "../assets/images/png/img_9_center.png";
-import tencenter from "../assets/images/png/img_10_center.png";
-import kongs from "../assets/images/png/Kongs.png";
+import firstimage from "../assets/images/webp/img_1.webp";
+import secondimage from "../assets/images/webp/mokey.webp";
+import thirdimage from "../assets/images/webp/mokey2.webp";
+import fourthimage from "../assets/images/webp/mokey3.webp";
+import fifthimage from "../assets/images/webp/mokey4.webp";
+import siximage from "../assets/images/webp/img_6.webp";
+import sevenimage from "../assets/images/webp/img_7.webp";
+import eightimage from "../assets/images/webp/mokey8.webp";
+import nineimage from "../assets/images/webp/mokey9.webp";
+import tenimage from "../assets/images/webp/mokey10.webp";
+import firstcenter from "../assets/images/webp/img_1_center.webp";
+import secondcenter from "../assets/images/webp/img_2_center.webp";
+import thirdcenter from "../assets/images/webp/monkey3.webp";
+import fouthcenter from "../assets/images/webp/monkey4.webp";
+import fivecenter from "../assets/images/webp/img_5_center.webp";
+import sixcenter from "../assets/images/webp/img_6_center.webp";
+import sevencenter from "../assets/images/webp/img_7_center.webp";
+import eightcenter from "../assets/images/webp/img_8_center.webp";
+import ninecenter from "../assets/images/webp/img_9_center.webp";
+import tencenter from "../assets/images/webp/img_10_center.webp";
+import kongs from "../assets/images/webp/Kongs.webp";
 
 
 const Kongs = () => {

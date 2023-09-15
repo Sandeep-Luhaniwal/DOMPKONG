@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import mintNft from '../assets/images/png/Mint.png'
-import gradian1 from '../assets/images/png/gradian_top.png'
-import gradian2 from '../assets/images/png/gradian_bottom.png'
+import mintNft from '../assets/images/webp/Mint.webp'
+import gradian1 from '../assets/images/webp/gradian_top.webp'
+import gradian2 from '../assets/images/webp/gradian_bottom.webp'
 
 const Nft = () => {
     const [count, setCount] = useState(1);
