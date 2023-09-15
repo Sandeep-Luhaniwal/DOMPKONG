@@ -7,6 +7,10 @@
     transition: all linear 0.3s !important;
 }
 
+body {
+    overflow: hidden;
+}
+
 .a svg path {
     opacity: 0 !important;
 }
@@ -50,13 +54,6 @@ button svg {
     pointer-events: none;
 }
 
-
-
-@media (min-width:1024px) {
-    .my_box2::after {
-        left: -25%;
-    }
-}
 
 #slideshow {
     margin: auto;
@@ -146,6 +143,52 @@ button svg {
 
     to {
         transform: rotateY(360deg);
+    }
+}
+
+.headershadow {
+    transition: all linear 5000ms;
+    animation: rotar1 linear infinite 8000ms;
+}
+
+@keyframes rotar1 {
+    0% {
+        transform: translateX(-3%);
+    }
+
+    33% {
+        transform: translateY(-10%);
+    }
+
+    66% {
+        transform: translateX(-10%);
+    }
+
+    100% {
+        transform: translateX(-3%);
+    }
+}
+
+.headershadow2 {
+    transition: all linear 5000ms;
+    animation: rotar2 linear infinite 8000ms;
+}
+
+@keyframes rotar2 {
+    0% {
+        transform: translateY(-3%);
+    }
+
+    33% {
+        transform: translateX(10%);
+    }
+
+    66% {
+        transform: translateY(-10%);
+    }
+
+    100% {
+        transform: translateY(-3%);
     }
 }
 
@@ -272,4 +315,99 @@ button svg {
     transform-origin: right;
     transition-delay: 0.58s;
     transform: scaleX(1);
+}
+
+.animation_preloader {
+    animation: rotate linear 2.5s infinite;
+    transition: all linear 0.3s;
+    transform: scale(1);
+}
+
+@keyframes rotate {
+    0% {
+        transform: scale(1);
+    }
+
+    33% {
+        transform: scale(1.3);
+    }
+
+    66% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.3);
+    }
+}
+
+.box_circle {
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    background-color: #FDDA60;
+    cursor: pointer;
+    transform: all .3s linear;
+}
+
+.box_circle:hover {
+    background-color: #15ABFF;
+}
+
+.backtotop {
+    position: fixed;
+    display: none;
+    bottom: 3%;
+    right: 2%;
+    z-index: 2;
+    animation: rotate1 linear 2.5s infinite;
+    transform: translateY(0%);
+}
+
+@media (min-width:1024px) {
+    .headerMonkey {
+        transition-delay: 3s;
+        animation: rotar3 alternate 5s;
+    }
+
+    .headerMonkey2 {
+        transition-delay: 5s;
+        animation: rotar3 alternate 5s;
+    }
+
+    .headerMonkey3 {
+        transition-delay: 6s;
+        animation: rotar3 alternate 5s;
+    }
+
+    .loder {
+        transition-delay: 3s;
+        animation: rotar4 alternate 3s;
+    }
+
+    @keyframes rotar3 {
+        0% {
+            transform: translateX(100%) scale(0.5);
+        }
+
+        100% {
+            transform: translateX(50%) scale(1);
+        }
+    }
+
+    @keyframes rotar4 {
+        0% {
+            transform: translateY(-100%) scale(0.5);
+        }
+
+        100% {
+            transform: translateY(0%) scale(1);
+        }
+    }
+
+    .my_box2::after {
+        left: -25%;
+    }
+
+
 }

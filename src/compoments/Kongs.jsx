@@ -87,7 +87,7 @@ const Kongs = () => {
                             </li>
                         </ul>
                         <div className='relative md:hidden'>
-                            <ul className='px-2 bg-black z-20 flex gap-3 absolute bottom-[-350px] sm:bottom-[-550px] h-full'>
+                            <ul className='px-2 z-20 flex gap-3 absolute bottom-[-350px] sm:bottom-[-550px] h-full'>
                                 <li onClick={() => handleTabClick("Six")} className="cursor-pointer ">
                                     <span className={`md:absolute md:md:right-1 lg:right-[-20px] top-0 z-20 ${activetab === "Six" ? " " : ""}`}>
                                         <img src={siximage} alt="" className='w-full max-w-[180px] rounded-[8px] border-[4px] border-primary' />

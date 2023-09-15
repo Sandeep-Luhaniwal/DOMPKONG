@@ -8,11 +8,14 @@ import Partner from './compoments/Partner'
 import Teams from './compoments/Teams'
 import Utilities from './compoments/Utilities'
 import Roadmap from './compoments/Roadmap'
+import Preloder from './compoments/Preloder'
+import BackToTop from './compoments/BackToTop'
 
 
 function App() {
   return (
     <>
+      <Preloder />
       <Header />
       <About />
       <Utilities />
@@ -22,6 +25,7 @@ function App() {
       <Partner />
       <Teams />
       <Faq />
+      <BackToTop />
     </>
   )
 }
