@@ -311,6 +311,14 @@ button svg {
     transform-origin: right;
 }
 
+.iconColor {
+    transition: all linear 300s;
+}
+
+.iconColor:hover svg path {
+    fill: #fff;
+}
+
 .hoverEffect:hover span:nth-child(6) {
     transform-origin: right;
     transition-delay: 0.58s;

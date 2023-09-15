@@ -30,7 +30,7 @@ const Kongs = () => {
     };
     return (
         <>
-            <div className='bg-black md:min-h-[1040px] min-h-[660px] sm:min-h-[900px] overflow-x-hidden py-3'>
+            <div className='bg-black md:min-h-[1040px] min-h-[670px] sm:min-h-[920px] overflow-x-hidden py-3'>
                 <div className='flex flex-col justify-center items-center relative'>
                     <h2 className='font-Azo font-[400] text-xxl md:text-[60px] lg:text-xxxl text-center text-white pt-[10px] sm:pt-[20px] md:pt-[30px]'>tHE kONGS</h2>
                     <div className="flex flex-col md:flex mt-3 sm:mt-0">

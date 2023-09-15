@@ -21,12 +21,13 @@ const BackToTop = () => {
     })
     return (
         <>
-            <div className='myContainer'>
+            <div className=' z-[100] relative'>
                 <div onClick={() => setPosition({ ...position, position: { top: 0, left: 0 } })} className="backtotop"
-                    ref={scrollTop}
-                ><div className='box_circle hover-bg flex justify-center items-center'>
+                    ref={scrollTop} >
+                    <div className='box_circle hover-bg flex justify-center items-center'>
                         <TopIcon />
-                    </div></div>
+                    </div>
+                </div>
             </div>
         </>
 

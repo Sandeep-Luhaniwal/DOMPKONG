@@ -10,9 +10,11 @@ import Utilities from './compoments/Utilities'
 import Roadmap from './compoments/Roadmap'
 import Preloder from './compoments/Preloder'
 import BackToTop from './compoments/BackToTop'
+import { useEffect } from 'react'
 
 
 function App() {
+
   return (
     <>
       <Preloder />

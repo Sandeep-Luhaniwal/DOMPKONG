@@ -39,12 +39,12 @@ const Header = () => {
                     </div>
                     <div className='loder'>
                         <ul className='flex gap-6 justify-center pt-[20px] sm:pt-[32px]'>
-                            <li><a href="#"><TwitterIcon /></a></li>
-                            <li><a href="#"><BoatIcon /></a></li>
-                            <li><a href="#"><DiamondIcon /></a></li>
-                            <li><a href="#"><DiscordIcon /></a></li>
-                            <li><a href="#"><MaxIcon /></a></li>
-                            <li><a href="#"><TelegramIcon /></a></li>
+                            <li className='iconColor'><a href="https://twitter.com/" target='/'><TwitterIcon /></a></li>
+                            <li className='iconColor'><a href="https://www.boat-lifestyle.com/" target='/'><BoatIcon /></a></li>
+                            <li className='iconColor'><a href="https://www.caratlane.com/" target='/'><DiamondIcon /></a></li>
+                            <li className='iconColor'><a href="https://discord.com/" target='/'><DiscordIcon /></a></li>
+                            <li className='iconColor'><a href="https://www.maxfashion.in/in/en/" target='/'><MaxIcon /></a></li>
+                            <li className='iconColor'><a href="https://telegram.org/" target='/'><TelegramIcon /></a></li>
                         </ul>
                         <h1 className='font-Azo font-[400] text-xxl md:text-xxxl text-center text-white'>WELCOME <span className='md:block'> TO <span className='text-secondary relative before:absolute before:w-full before:h-[5px] before:bg-primary before:bottom-[0px]'>DOMPKONG</span></span></h1>
                         <p className='text-white text-center pt-[12px] font-Montserrat '>Turpis et tortor vel pharetra nibh. Mauris nisl sit vitae viverra amet et. <span className='lg:block'>Erat nam molestie. Vita</span></p>
