@@ -53,7 +53,14 @@ const Nft = () => {
                                 <button className='bg-white text-xxl font-Montserrat font-[900] border-0 outline-none px-[30px] rounded-[4px]' onClick={increment}>+</button>
                             </div>
                             <div className="flex justify-center md:justify-start pt-[22px] md:pt[30px] ">
-                                <button className='shadow-cardShadow border-none outline-none px-[100px] sm:px-[138px] lg:px-[209px] py-[16px] font-Azo bg-primary  rounded-[4px]'>MINT NOW</button>
+                                    <button className='shadow-cardShadow border-none outline-none px-[100px] sm:px-[138px] lg:px-[209px] py-[16px] font-Azo bg-primary  rounded-[4px]  hoverEffect hover:scale-[1]'>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        MINT NOW</button>
                             </div>
                         </div>
                     </div>

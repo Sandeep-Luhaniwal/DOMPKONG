@@ -30,59 +30,59 @@ const Kongs = () => {
     };
     return (
         <>
-            <div className='bg-black md:min-h-[1030px] min-h-[660px] sm:min-h-[900px] overflow-x-hidden'>
+            <div className='bg-black md:min-h-[1040px] min-h-[660px] sm:min-h-[900px] overflow-x-hidden py-3'>
                 <div className='flex flex-col justify-center items-center relative'>
                     <h2 className='font-Azo font-[400] text-xxl md:text-[60px] lg:text-xxxl text-center text-white pt-[10px] sm:pt-[20px] md:pt-[30px]'>tHE kONGS</h2>
                     <div className="flex flex-col md:flex mt-3 sm:mt-0">
                         <ul className='mb-0 px-2 md:px-0 bg-black z-20 flex gap-3'>
                             <li onClick={() => handleTabClick("First")} className="cursor-pointer">
                                 <span className={`md:absolute md:top-0 md:left-1 lg:left-[-20px] z-20 ${activetab === "First" ? "" : ""}`}>
-                                    <img src={firstimage} alt="" className='w-full max-w-[180px] rounded-[8px] border-[4px] border-primary' />
+                                    <img src={firstimage} alt="" className='w-full max-w-[180px] hover:shadow-hoverimgShadow hover:scale-[1.05] transition-all duration-500 rounded-[8px] border-[4px] border-primary' />
                                 </span>
                             </li>
                             <li onClick={() => handleTabClick("Second")} className="cursor-pointer">
                                 <span className={`md:absolute md:top-[210px] md:left-[4px] lg:left-[64px] z-20 ${activetab === "Second" ? "" : ""}`}>
-                                    <img src={secondimage} alt="" className='w-full max-w-[180px] rounded-[8px] border-[4px] border-primary' />
+                                    <img src={secondimage} alt="" className='w-full max-w-[180px] hover:shadow-hoverimgShadow hover:scale-[1.05] transition-all duration-500 rounded-[8px] border-[4px] border-primary' />
                                 </span>
                             </li>
                             <li onClick={() => handleTabClick("Thrid")} className="cursor-pointer">
                                 <span className={`md:absolute md:top-[420px] md:left-[4px] lg:left-[174px] z-20 ${activetab === "Thrid" ? "" : ""}`}>
-                                    <img src={thirdimage} alt="" className='w-full max-w-[180px] rounded-[8px] border-[4px] border-primary' />
+                                    <img src={thirdimage} alt="" className='w-full max-w-[180px] hover:shadow-hoverimgShadow hover:scale-[1.05] transition-all duration-500 rounded-[8px] border-[4px] border-primary' />
                                 </span>
                             </li>
                             <li onClick={() => handleTabClick("Fourth")} className="cursor-pointer">
                                 <span className={`md:absolute md:top-[630px] md:left-[4px] lg:left-[64px] z-20 ${activetab === "Fourth" ? "" : ""}`}>
-                                    <img src={fourthimage} alt="" className='w-full max-w-[180px] rounded-[8px] border-[4px] border-primary' />
+                                    <img src={fourthimage} alt="" className='w-full max-w-[180px] hover:shadow-hoverimgShadow hover:scale-[1.05] transition-all duration-500 rounded-[8px] border-[4px] border-primary' />
                                 </span>
                             </li>
                             <li onClick={() => handleTabClick("Five")} className="cursor-pointer">
                                 <span className={`md:absolute md:top-[840px] md:left-[4px] lg:left-[-20px] z-20 ${activetab === "Five" ? "" : ""}`}>
-                                    <img src={fifthimage} alt="" className='w-full max-w-[180px] rounded-[8px] border-[4px] border-primary' />
+                                    <img src={fifthimage} alt="" className='w-full max-w-[180px] hover:shadow-hoverimgShadow hover:scale-[1.05] transition-all duration-500 rounded-[8px] border-[4px] border-primary' />
                                 </span>
                             </li>
                             <li onClick={() => handleTabClick("Six")} className="cursor-pointer hidden md:block">
                                 <span className={`md:absolute md:md:right-1 lg:right-[-20px] top-0 z-20 ${activetab === "Six" ? " " : ""}`}>
-                                    <img src={siximage} alt="" className='w-full max-w-[180px] rounded-[8px] border-[4px] border-primary' />
+                                    <img src={siximage} alt="" className='w-full max-w-[180px] hover:shadow-hoverimgShadow hover:scale-[1.05] transition-all duration-500 rounded-[8px] border-[4px] border-primary' />
                                 </span>
                             </li>
                             <li onClick={() => handleTabClick("Seven")} className="cursor-pointer hidden md:block">
                                 <span className={`md:absolute md:top-[210px] md:right-1 lg:right-[64px] z-20 ${activetab === "Seven" ? "" : ""}`}>
-                                    <img src={sevenimage} alt="" className='w-full max-w-[180px] rounded-[8px] border-[4px] border-primary' />
+                                    <img src={sevenimage} alt="" className='w-full max-w-[180px] hover:shadow-hoverimgShadow hover:scale-[1.05] transition-all duration-500 rounded-[8px] border-[4px] border-primary' />
                                 </span>
                             </li>
                             <li onClick={() => handleTabClick("Eight")} className="cursor-pointer hidden md:block">
                                 <span className={`md:absolute md:top-[420px] md:right-1 lg:right-[174px] z-20 ${activetab === "Eight" ? "" : ""}`}>
-                                    <img src={eightimage} alt="" className='w-full max-w-[180px] rounded-[8px] border-[4px] border-primary' />
+                                    <img src={eightimage} alt="" className='w-full max-w-[180px] hover:shadow-hoverimgShadow hover:scale-[1.05] transition-all duration-500 rounded-[8px] border-[4px] border-primary' />
                                 </span>
                             </li>
                             <li onClick={() => handleTabClick("Nine")} className="cursor-pointer hidden md:block">
                                 <span className={`md:absolute md:top-[630px] md:right-1 lg:right-[64px] z-20 ${activetab === "Nine" ? "" : ""}`}>
-                                    <img src={nineimage} alt="" className='w-full max-w-[180px] rounded-[8px] border-[4px] border-primary' />
+                                    <img src={nineimage} alt="" className='w-full max-w-[180px] hover:shadow-hoverimgShadow hover:scale-[1.05] transition-all duration-500 rounded-[8px] border-[4px] border-primary' />
                                 </span>
                             </li>
                             <li onClick={() => handleTabClick("Ten")} className="cursor-pointer hidden md:block">
                                 <span className={`md:absolute md:top-[840px] md:right-1 lg:right-[-20px] z-20 ${activetab === "Ten" ? "" : ""}`}>
-                                    <img src={tenimage} alt="" className='w-full max-w-[180px] rounded-[8px] border-[4px] border-primary' />
+                                    <img src={tenimage} alt="" className='w-full max-w-[180px] hover:shadow-hoverimgShadow hover:scale-[1.05]  transition-all duration-500 rounded-[8px] border-[4px] border-primary' />
                                 </span>
                             </li>
                         </ul>
@@ -137,7 +137,7 @@ const Kongs = () => {
                             )}
                             {activetab === "Thrid" && (
                                 <div className="flex justify-center items-center absolute top-[0px] md:left-[-420px] w-[330px] sm:w-[600px] md:w-[786px] md:h-[700px] bg-black">
-                                    <div className='flex justify-center'>
+                                    <div className='flex justify-center '>
                                         <img src={thirdcenter} alt="" className='w-full lg:min-w-[600px]' />
                                     </div>
                                 </div>
