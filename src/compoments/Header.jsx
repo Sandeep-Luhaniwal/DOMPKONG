@@ -26,7 +26,7 @@ const Header = () => {
                     <img src={Image5} alt="" className='w-full max-h-[185px]' />
                 </div>
                 <div className="container min-h-[100vh]: mx-auto max-w-[1140px] relative z-10 ">
-                    <div className="flex pt-[28px] justify-end">
+                    <div className="flex pt-[28px] justify-end pe-1">
                         <button className='shadow-cardShadow border-none outline-none px-6 py-4 font-Azo bg-primary hoverEffect rounded-[4px]'>
                             <span></span>
                             <span></span>

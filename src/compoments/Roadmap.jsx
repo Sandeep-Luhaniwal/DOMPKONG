@@ -139,7 +139,7 @@ const Roadmap = () => {
                         </div>
                     </div>
                     <div className='py-6 sm:pt-8 md:pt-10 lg:pt-[60px] flex justify-center'>
-                        <button className='bg-primary py-4 px-3 sm:px-6 rounded-[4px] font-Azo text-md shadow-btnShadow  hoverEffect'>
+                        <button className='bg-primary py-4 px-3 sm:px-6 rounded-[4px] font-Azo text-sm sm:text-md shadow-btnShadow  hoverEffect'>
                             <span></span>
                             <span></span>
                             <span></span>

@@ -4,12 +4,12 @@ import { TeamMember } from './Helper';
 const Teams = () => {
     return (
         <>
-            <section className='bg-black'>
+            <section className='bg-black overflow-hidden'>
                 <div className="cotainer mx-auto max-w-[1140px] px-3 relative z-20 md:pt-8">
                     <h2 className='font-Azo font-[400] text-xxl md:text-xxxl text-center text-white pb-[10px] sm:pb-[20px] md:pb-[30px]'>Meet The Team</h2>
                     {TeamMember.map((team) => {
                         return (
-                            <div className='w-full flex flex-wrap relative overflow-hidden'>
+                            <div className='w-full flex flex-wrap relative'>
                                 <div className='w-[100%] relative z-10 h-[1px] bg-primary shadow-topShadow'>
                                 </div>
                                 <div className='sm:w-1/2 pt-[18px] w-full md:pt-[34px]'>
