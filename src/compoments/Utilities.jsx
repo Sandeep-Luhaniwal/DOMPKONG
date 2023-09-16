@@ -11,7 +11,10 @@ const Utilities = () => {
                         {ProductsCard.map((data) => {
                             return (
                                 <div className='w-full sm:w-1/2 md:w-1/3 px-3 py-4'>
-                                    <div className='relative overflow-hidden cursor-pointer border-[1px] border-solid border-borderColor rounded-[16px] bg-bgborderColor hover:bg-primary text-white hover:text-black hover:shadow-cardShadow'>
+                                    <div data-aos='flip-left'
+                                        data-aos-easing='ease-out-cubic'
+                                        data-aos-duration='2000'
+                                        className='relative overflow-hidden cursor-pointer border-[1px] border-solid border-borderColor rounded-[16px] bg-bgborderColor hover:bg-primary text-white hover:text-black hover:shadow-cardShadow'>
                                         <div className="w-[91px] h-[91px] rounded-full bg-white absolute top-[-30px] right-[-30px] blur-[76px] "></div>
                                         <div className="w-[91px] h-[91px] rounded-full bg-white absolute bottom-[0px] left-[0px] blur-[94px] "></div>
                                         <div className="relative z-20 p-[20px] ">

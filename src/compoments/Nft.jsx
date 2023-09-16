@@ -32,10 +32,10 @@ const Nft = () => {
                     <div className="w-[296px] h-[296px] rounded-full bg-primary absolute top-[40%] right-[-30px] blur-[146px] "></div>
                     <div className='container mx-auto max-w-[1140px] relative z-20'>
                         <div className="flex flex-wrap pt-[30px] sm:pt-[45px] md:pt-[70px] md:pb-[50px] items-center">
-                            <div className="w-full md:w-1/2 flex justify-center md:justify-start">
+                            <div className="w-full md:w-1/2 flex justify-center md:justify-start" data-aos="fade-right" data-aos-duration="1000">
                                 <img className='max-h-[800px] h-full w-full max-w-[358px]' src={mintNft} alt="mintnft" />
                             </div>
-                            <div className="w-full md:w-1/2 pt-5 md:pt-0">
+                            <div className="w-full md:w-1/2 pt-5 md:pt-0" data-aos="fade-left" data-aos-duration="1000">
                                 <h2 className='font-Azo font-[400] text-xxl md:text-xxxl text-center text-white'>Mint NFT</h2>
                                 <div className='flex flex-col sm:flex-row justify-between pt-[20px] sm:pt-[30px] md:pt-[50px]'>
                                     <p className='text-white text-center sm:text-start text-lg sm:text-xxl font-Montserrat font-[900]'>9999 <span className='block text-sm font-Montserrat font-[400]'>of 10,000 minted</span></p>
@@ -52,7 +52,7 @@ const Nft = () => {
                                     </div>
                                     <button className='bg-white text-xxl font-Montserrat font-[900] border-0 outline-none px-[30px] rounded-[4px] hover:text-primary hover:bg-[#046fb7]' onClick={increment}>+</button>
                                 </div>
-                                <div className="flex justify-center md:justify-start pt-[22px] md:pt[30px] ">
+                                <div className="flex justify-center md:justify-start pt-[22px] md:pt[30px] pb-8 md:pb-0">
                                     <button className='shadow-cardShadow border-none outline-none px-[100px] sm:px-[138px] lg:px-[209px] py-[16px] font-Azo bg-primary  rounded-[4px]  hoverEffect hover:scale-[1]'>
                                         <span></span>
                                         <span></span>

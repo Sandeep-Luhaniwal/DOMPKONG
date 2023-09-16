@@ -11,10 +11,15 @@ import Roadmap from './compoments/Roadmap'
 import Preloder from './compoments/Preloder'
 import BackToTop from './compoments/BackToTop'
 import { useEffect } from 'react'
+import Aos from 'aos'
+import "aos/dist/aos.css";
 
 
 function App() {
-
+  useEffect(() => {
+    Aos.init();
+    Aos.refresh();
+  }, [])
   return (
     <>
       <Preloder />

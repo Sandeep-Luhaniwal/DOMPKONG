@@ -14,7 +14,7 @@ const About = () => {
                             <p className='text-white text-sm font-Montserrat font-[400] !pt-[-10px]'>Turpis et tortor vel pharetra nibh. Mauris nisl sit vitae viverra amet et. Erat nam molestie. Vitae mollis lacus senectus mattis nisl. Porta , adipiscing sed mus diam amet, ac sed tellus. </p>
                         </div>
                         <div className='w-full md:w-1/2 pt-[100px] pb-[150px] md:py-0'>
-                            <section id="slideshow" className='w-full'>
+                            <div id="slideshow" className='w-full' data-aos="zoom-in-up" data-aos-duration="1000">
                                 <div class="entire-content">
                                     <div class="content-carrousel">
                                         <figure class="shadow"><img src={Image1} alt="" /></figure>
@@ -25,7 +25,7 @@ const About = () => {
                                         <figure class="shadow"><img src={Image3} alt="" /></figure>
                                     </div>
                                 </div>
-                            </section>
+                            </div>
                         </div>
                     </div>
                 </div>

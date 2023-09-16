@@ -27,7 +27,7 @@ export default {
         topShadow: "0px -1px 5px 0px #FDDA60",
         btnShadow: "0px 4px 24px 0px rgba(253, 218, 96, 0.80)",
         hoverimgShadow: "0px 0px 5px 5px rgba(253, 218, 96, 0.70)",
-        circleShadow: "0px 2px 10px 2px rgba(253, 218, 96, 0.70)",
+        circleShadow: "0px 1px 10px 1px rgba(253, 218, 96, 0.70)",
       },
       colors: {
         black: "#0A0A0A",
