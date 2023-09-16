@@ -14,15 +14,15 @@ const About = () => {
                             <p className='text-white text-sm font-Montserrat font-[400] !pt-[-10px]'>Turpis et tortor vel pharetra nibh. Mauris nisl sit vitae viverra amet et. Erat nam molestie. Vitae mollis lacus senectus mattis nisl. Porta , adipiscing sed mus diam amet, ac sed tellus. </p>
                         </div>
                         <div className='w-full md:w-1/2 pt-[100px] pb-[150px] md:py-0'>
-                            <div id="slideshow" className='w-full' data-aos="zoom-in-up" data-aos-duration="1000">
-                                <div class="entire-content">
-                                    <div class="content-carrousel">
-                                        <figure class="shadow"><img src={Image1} alt="" /></figure>
-                                        <figure class="shadow"><img src={Image2} alt="" /></figure>
-                                        <figure class="shadow"><img src={Image3} alt="" /></figure>
-                                        <figure class="shadow"><img src={Image1} alt="" /></figure>
-                                        <figure class="shadow"><img src={Image2} alt="" /></figure>
-                                        <figure class="shadow"><img src={Image3} alt="" /></figure>
+                            <div className='w-full m-auto box-border ms-[20px] !rotate-[25deg]' data-aos="zoom-in-up" data-aos-duration="1000">
+                                <div class="entire-content m-auto w-[180px] relative pt-[25px] cursor-pointer">
+                                    <div class="content-carrousel w-full absolute float-right">
+                                        <figure class="border-[3px] border-primary rounded-[8px] w-[205px] h-[150px] overflow-hidden absolute"><img src={Image1} alt="" /></figure>
+                                        <figure class="border-[3px] border-primary rounded-[8px] w-[205px] h-[150px] overflow-hidden absolute"><img src={Image2} alt="" /></figure>
+                                        <figure class="border-[3px] border-primary rounded-[8px] w-[205px] h-[150px] overflow-hidden absolute"><img src={Image3} alt="" /></figure>
+                                        <figure class="border-[3px] border-primary rounded-[8px] w-[205px] h-[150px] overflow-hidden absolute"><img src={Image1} alt="" /></figure>
+                                        <figure class="border-[3px] border-primary rounded-[8px] w-[205px] h-[150px] overflow-hidden absolute"><img src={Image2} alt="" /></figure>
+                                        <figure class="border-[3px] border-primary rounded-[8px] w-[205px] h-[150px] overflow-hidden absolute"><img src={Image3} alt="" /></figure>
                                     </div>
                                 </div>
                             </div>

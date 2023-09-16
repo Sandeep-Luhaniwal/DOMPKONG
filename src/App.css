@@ -56,45 +56,25 @@ button svg {
 }
 
 
-#slideshow {
-    margin: auto;
-    width: 100%;
-    box-sizing: border-box;
-    rotate: 25deg;
-    margin-left: 20px;
-
-}
-
-.slideshow-title {
-    margin: auto;
-}
-
-.entire-content {
-    margin: auto;
-    width: 180px;
-    position: relative;
-    padding-top: 25px;
-}
-
 .content-carrousel {
-    width: 100%;
-    position: absolute;
-    float: right;
     animation: rotar 30s infinite linear;
     transform-style: preserve-3d;
 }
 
+@keyframes rotar {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
 .content-carrousel:hover {
     animation-play-state: paused;
-    cursor: pointer;
+
 }
 
-.content-carrousel figure {
-    width: 205px;
-    height: 150px;
-    overflow: hidden;
-    position: absolute;
-}
 
 .content-carrousel figure:nth-child(1) {
     transform: rotateY(0deg) translateZ(220px);
@@ -126,25 +106,10 @@ button svg {
     height: 100%;
 }
 
-.shadow {
-    overflow: hidden;
-    border: 3px solid #FDDA60;
-    border-radius: 8px;
-}
 
 .content-carrousel img:hover {
     transform: scale(1.1);
     transition: all 500ms;
-}
-
-@keyframes rotar {
-    from {
-        transform: rotateY(0deg);
-    }
-
-    to {
-        transform: rotateY(360deg);
-    }
 }
 
 .headershadow {

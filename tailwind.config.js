@@ -34,6 +34,7 @@ export default {
         white: "#ffffff",
         primary: "#FDDA60",
         secondary: "#F1C85D",
+        btnHover: "#046fb7",
         borderColor: "rgba(255, 255, 255, 0.20)",
         bgborderColor: "rgba(255, 255, 255, 0.10)",
       },

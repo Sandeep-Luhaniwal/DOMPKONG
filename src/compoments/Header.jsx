@@ -27,7 +27,7 @@ const Header = () => {
                 </div>
                 <div className="container min-h-[100vh]: mx-auto max-w-[1140px] relative z-10 ">
                     <div className="flex pt-[28px] justify-end pe-1">
-                        <button className='shadow-cardShadow border-none outline-none px-6 py-4 font-Azo bg-primary hoverEffect rounded-[4px]'>
+                        <button className='shadow-cardShadow border-none outline-none px-6 py-4 font-Azo bg-primary hoverEffect inline-block duration-[0.5s] scale-[1] rounded-[4px] hover:bg-btnHover hover:text-primary hover:scale-[1.1] hover:rotate-[-2deg]'>
                             <span></span>
                             <span></span>
                             <span></span>
@@ -38,7 +38,7 @@ const Header = () => {
                         </button>
                     </div>
                     <div className='loder'>
-                        <ul className='flex gap-6 justify-center pt-[20px] sm:pt-[32px]'>
+                        <ul className='flex gap-6 justify-center py-[16px] sm:pt-[32px]'>
                             <li className='iconColor'><a href="https://twitter.com/" target='/'><TwitterIcon /></a></li>
                             <li className='iconColor'><a href="https://www.boat-lifestyle.com/" target='/'><BoatIcon /></a></li>
                             <li className='iconColor'><a href="https://www.caratlane.com/" target='/'><DiamondIcon /></a></li>
@@ -46,10 +46,10 @@ const Header = () => {
                             <li className='iconColor'><a href="https://www.maxfashion.in/in/en/" target='/'><MaxIcon /></a></li>
                             <li className='iconColor'><a href="https://telegram.org/" target='/'><TelegramIcon /></a></li>
                         </ul>
-                        <h1 className='font-Azo font-[400] text-xxl md:text-xxxl text-center text-white'>WELCOME <span className='md:block'> TO <span className='text-secondary relative before:absolute before:w-full before:h-[5px] before:bg-primary before:bottom-[0px]'>DOMPKONG</span></span></h1>
+                        <h1 className='font-Azo font-[400] text-xxl md:text-xxxl text-center text-white'>WELCOME <span className='md:block mt-[-20px]'> TO <span className='text-secondary relative before:absolute before:w-full before:h-[5px] before:bg-primary before:bottom-[0px]' >DOMPKONG</span></span></h1>
                         <p className='text-white text-center pt-[12px] font-Montserrat '>Turpis et tortor vel pharetra nibh. Mauris nisl sit vitae viverra amet et. <span className='lg:block'>Erat nam molestie. Vita</span></p>
-                        <div className="flex flex-col sm:flex-row pt-[30px] justify-center sm:gap-[20px] md:gap-[32px]">
-                            <div className='flex justify-center'> <button className='shadow-cardShadow border-none outline-none px-6 py-4 max-w-auto font-Azo bg-primary uppercase rounded-[4px] hoverEffect'>
+                        <div className="flex flex-col sm:flex-row pt-[28px] justify-center sm:gap-[20px] md:gap-[32px]">
+                            <div className='flex justify-center'> <button className='shadow-cardShadow border-none outline-none px-6 py-4 max-w-auto font-Azo bg-primary uppercase rounded-[4px] hoverEffect inline-block duration-[0.5s] scale-[1] hover:bg-btnHover hover:text-primary hover:scale-[1.1] hover:rotate-[-2deg]'>
                                 <span></span>
                                 <span></span>
                                 <span></span>
@@ -57,7 +57,7 @@ const Header = () => {
                                 <span></span>
                                 <span></span>
                                 Whitepaper</button></div>
-                            <div className='flex justify-center mt-4 sm:mt-0'><button className='shadow-cardShadow border-none outline-none px-6  py-4 font-Azo bg-primary uppercase rounded-[4px] hoverEffect'>
+                            <div className='flex justify-center mt-4 sm:mt-0'><button className='shadow-cardShadow border-none outline-none px-6  py-4 font-Azo bg-primary uppercase rounded-[4px] hoverEffect inline-block duration-[0.5s] scale-[1] hover:bg-btnHover hover:text-primary hover:scale-[1.1] hover:rotate-[-2deg]'>
                                 <span></span>
                                 <span></span>
                                 <span></span>
@@ -65,7 +65,7 @@ const Header = () => {
                                 <span></span>
                                 <span></span>
                                 Mint</button></div>
-                            <div className='flex justify-center mt-4 sm:mt-0'><button className='shadow-cardShadow border-none outline-none px-6  py-4 font-Azo bg-primary uppercase rounded-[4px] hoverEffect'>
+                            <div className='flex justify-center mt-4 sm:mt-0'><button className='shadow-cardShadow border-none outline-none px-6  py-4 font-Azo bg-primary uppercase rounded-[4px] hoverEffect inline-block duration-[0.5s] scale-[1] hover:bg-btnHover hover:text-primary hover:scale-[1.1] hover:rotate-[-2deg]'>
                                 <span></span>
                                 <span></span>
                                 <span></span>
