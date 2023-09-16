@@ -70,6 +70,7 @@ button svg {
         transform: rotateY(360deg);
     }
 }
+
 .content-carrousel:hover {
     animation-play-state: paused;
 
@@ -99,6 +100,7 @@ button svg {
 .content-carrousel figure:nth-child(6) {
     transform: rotateY(300deg) translateZ(220px);
 }
+
 .content-carrousel figure:nth-child(7) {
     transform: rotateY(360deg) translateZ(220px);
 }
@@ -107,7 +109,7 @@ button svg {
     transition: all 500ms;
     width: 100%;
     height: 100%;
-        image-rendering: auto;
+    image-rendering: auto;
 }
 
 
